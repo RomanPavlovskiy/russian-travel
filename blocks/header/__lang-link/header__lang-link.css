@@ -3,10 +3,15 @@
   color: white;
   font-weight: normal;
   margin: 0;
+  text-decoration: none;
+  transition: opacity .7s;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
 }
 
 .header__lang-link:first-child {
-    text-decoration: underline;
     margin-right: 18px;
 }
 
